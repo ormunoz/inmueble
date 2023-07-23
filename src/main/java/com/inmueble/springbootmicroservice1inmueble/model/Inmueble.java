@@ -26,4 +26,7 @@ public class Inmueble {
 
     @Column(name="fecha_creacion", nullable = false)
     private LocalDateTime fecha_creacion;
+
+    public Inmueble(long id, String direccion,String nombre,  double precio) {
+    }
 }
